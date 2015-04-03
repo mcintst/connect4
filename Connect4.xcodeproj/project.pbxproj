@@ -13,6 +13,9 @@
 		C9F26A921ACE26E0000F4E24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F26A911ACE26E0000F4E24 /* Images.xcassets */; };
 		C9F26A951ACE26E0000F4E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F26A931ACE26E0000F4E24 /* Main.storyboard */; };
 		C9F26AA11ACE26E0000F4E24 /* Connect4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26AA01ACE26E0000F4E24 /* Connect4Tests.swift */; };
+		C9F26AAD1ACE2EFB000F4E24 /* RedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */; };
+		C9F26AAE1ACE2EFB000F4E24 /* WhiteCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */; };
+		C9F26AAF1ACE2EFB000F4E24 /* YellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		C9F26A9A1ACE26E0000F4E24 /* Connect4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Connect4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F26A9F1ACE26E0000F4E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9F26AA01ACE26E0000F4E24 /* Connect4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4Tests.swift; sourceTree = "<group>"; };
+		C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle.png; sourceTree = "<group>"; };
+		C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteCircle.png; sourceTree = "<group>"; };
+		C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowCircle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */,
 				C9F26A911ACE26E0000F4E24 /* Images.xcassets */,
 				C9F26A931ACE26E0000F4E24 /* Main.storyboard */,
+				C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */,
+				C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */,
+				C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */,
 				C9F26A8E1ACE26E0000F4E24 /* Connect4.xcdatamodeld */,
 				C9F26A881ACE26E0000F4E24 /* Supporting Files */,
 			);
@@ -193,6 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F26A921ACE26E0000F4E24 /* Images.xcassets in Resources */,
+				C9F26AAE1ACE2EFB000F4E24 /* WhiteCircle.png in Resources */,
+				C9F26AAD1ACE2EFB000F4E24 /* RedCircle.png in Resources */,
+				C9F26AAF1ACE2EFB000F4E24 /* YellowCircle.png in Resources */,
 				C9F26A951ACE26E0000F4E24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
