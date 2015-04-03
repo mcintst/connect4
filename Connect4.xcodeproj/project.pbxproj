@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9F26A8B1ACE26E0000F4E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8A1ACE26E0000F4E24 /* AppDelegate.swift */; };
+		C9F26A8D1ACE26E0000F4E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */; };
+		C9F26A901ACE26E0000F4E24 /* Connect4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8E1ACE26E0000F4E24 /* Connect4.xcdatamodeld */; };
+		C9F26A921ACE26E0000F4E24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F26A911ACE26E0000F4E24 /* Images.xcassets */; };
+		C9F26A951ACE26E0000F4E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F26A931ACE26E0000F4E24 /* Main.storyboard */; };
+		C9F26AA11ACE26E0000F4E24 /* Connect4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26AA01ACE26E0000F4E24 /* Connect4Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9F26A9B1ACE26E0000F4E24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9F26A7D1ACE26E0000F4E24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9F26A841ACE26E0000F4E24;
+			remoteInfo = Connect4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9F26A851ACE26E0000F4E24 /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F26A891ACE26E0000F4E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F26A8A1ACE26E0000F4E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9F26A8F1ACE26E0000F4E24 /* Connect4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Connect4.xcdatamodel; sourceTree = "<group>"; };
+		C9F26A911ACE26E0000F4E24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9F26A941ACE26E0000F4E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9F26A9A1ACE26E0000F4E24 /* Connect4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Connect4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F26A9F1ACE26E0000F4E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F26AA01ACE26E0000F4E24 /* Connect4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connect4Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9F26A821ACE26E0000F4E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F26A971ACE26E0000F4E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9F26A7C1ACE26E0000F4E24 = {
+			isa = PBXGroup;
+			children = (
+				C9F26A871ACE26E0000F4E24 /* Connect4 */,
+				C9F26A9D1ACE26E0000F4E24 /* Connect4Tests */,
+				C9F26A861ACE26E0000F4E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9F26A861ACE26E0000F4E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9F26A851ACE26E0000F4E24 /* Connect4.app */,
+				C9F26A9A1ACE26E0000F4E24 /* Connect4Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9F26A871ACE26E0000F4E24 /* Connect4 */ = {
+			isa = PBXGroup;
+			children = (
+				C9F26A8A1ACE26E0000F4E24 /* AppDelegate.swift */,
+				C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */,
+				C9F26A911ACE26E0000F4E24 /* Images.xcassets */,
+				C9F26A931ACE26E0000F4E24 /* Main.storyboard */,
+				C9F26A8E1ACE26E0000F4E24 /* Connect4.xcdatamodeld */,
+				C9F26A881ACE26E0000F4E24 /* Supporting Files */,
+			);
+			path = Connect4;
+			sourceTree = "<group>";
+		};
+		C9F26A881ACE26E0000F4E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F26A891ACE26E0000F4E24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9F26A9D1ACE26E0000F4E24 /* Connect4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9F26AA01ACE26E0000F4E24 /* Connect4Tests.swift */,
+				C9F26A9E1ACE26E0000F4E24 /* Supporting Files */,
+			);
+			path = Connect4Tests;
+			sourceTree = "<group>";
+		};
+		C9F26A9E1ACE26E0000F4E24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9F26A9F1ACE26E0000F4E24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9F26A841ACE26E0000F4E24 /* Connect4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F26AA41ACE26E0000F4E24 /* Build configuration list for PBXNativeTarget "Connect4" */;
+			buildPhases = (
+				C9F26A811ACE26E0000F4E24 /* Sources */,
+				C9F26A821ACE26E0000F4E24 /* Frameworks */,
+				C9F26A831ACE26E0000F4E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Connect4;
+			productName = Connect4;
+			productReference = C9F26A851ACE26E0000F4E24 /* Connect4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9F26A991ACE26E0000F4E24 /* Connect4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9F26AA71ACE26E0000F4E24 /* Build configuration list for PBXNativeTarget "Connect4Tests" */;
+			buildPhases = (
+				C9F26A961ACE26E0000F4E24 /* Sources */,
+				C9F26A971ACE26E0000F4E24 /* Frameworks */,
+				C9F26A981ACE26E0000F4E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9F26A9C1ACE26E0000F4E24 /* PBXTargetDependency */,
+			);
+			name = Connect4Tests;
+			productName = Connect4Tests;
+			productReference = C9F26A9A1ACE26E0000F4E24 /* Connect4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9F26A7D1ACE26E0000F4E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Stuart McIntosh";
+				TargetAttributes = {
+					C9F26A841ACE26E0000F4E24 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C9F26A991ACE26E0000F4E24 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C9F26A841ACE26E0000F4E24;
+					};
+				};
+			};
+			buildConfigurationList = C9F26A801ACE26E0000F4E24 /* Build configuration list for PBXProject "Connect4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9F26A7C1ACE26E0000F4E24;
+			productRefGroup = C9F26A861ACE26E0000F4E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9F26A841ACE26E0000F4E24 /* Connect4 */,
+				C9F26A991ACE26E0000F4E24 /* Connect4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9F26A831ACE26E0000F4E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F26A921ACE26E0000F4E24 /* Images.xcassets in Resources */,
+				C9F26A951ACE26E0000F4E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F26A981ACE26E0000F4E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9F26A811ACE26E0000F4E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F26A901ACE26E0000F4E24 /* Connect4.xcdatamodeld in Sources */,
+				C9F26A8D1ACE26E0000F4E24 /* ViewController.swift in Sources */,
+				C9F26A8B1ACE26E0000F4E24 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9F26A961ACE26E0000F4E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F26AA11ACE26E0000F4E24 /* Connect4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9F26A9C1ACE26E0000F4E24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9F26A841ACE26E0000F4E24 /* Connect4 */;
+			targetProxy = C9F26A9B1ACE26E0000F4E24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9F26A931ACE26E0000F4E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9F26A941ACE26E0000F4E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9F26AA21ACE26E0000F4E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9F26AA31ACE26E0000F4E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9F26AA51ACE26E0000F4E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Connect4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9F26AA61ACE26E0000F4E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Connect4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9F26AA81ACE26E0000F4E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Connect4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect4.app/Contents/MacOS/Connect4";
+			};
+			name = Debug;
+		};
+		C9F26AA91ACE26E0000F4E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Connect4Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Connect4.app/Contents/MacOS/Connect4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9F26A801ACE26E0000F4E24 /* Build configuration list for PBXProject "Connect4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F26AA21ACE26E0000F4E24 /* Debug */,
+				C9F26AA31ACE26E0000F4E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9F26AA41ACE26E0000F4E24 /* Build configuration list for PBXNativeTarget "Connect4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F26AA51ACE26E0000F4E24 /* Debug */,
+				C9F26AA61ACE26E0000F4E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9F26AA71ACE26E0000F4E24 /* Build configuration list for PBXNativeTarget "Connect4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F26AA81ACE26E0000F4E24 /* Debug */,
+				C9F26AA91ACE26E0000F4E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9F26A8E1ACE26E0000F4E24 /* Connect4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9F26A8F1ACE26E0000F4E24 /* Connect4.xcdatamodel */,
+			);
+			currentVersion = C9F26A8F1ACE26E0000F4E24 /* Connect4.xcdatamodel */;
+			path = Connect4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9F26A7D1ACE26E0000F4E24 /* Project object */;
+}
