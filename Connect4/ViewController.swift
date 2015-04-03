@@ -12,6 +12,16 @@ class ViewController: NSViewController {
 
     
     @IBAction func wasClicked(sender: NSButton) {
+    println(sender.tag)
+    var theImage = sender.image!.name()!
+    println(theImage)
+    
+        switch theImage {
+        case "WhiteCircle" : sender.image = NSImage(named: "RedCircle")
+        case "RedCircle" : sender.image = NSImage(named: "YellowCircle")
+        case "YellowCircle" : sender.image = NSImage(named: "WhiteCircle")
+        default : println("error")
+        }
     }
     
     
