@@ -682,6 +682,16 @@
                                     <action selector="wasClicked:" target="XfG-lQ-9wD" id="sw0-2w-hZI"/>
                                 </connections>
                             </button>
+                            <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zk2-6w-drX">
+                                <rect key="frame" x="293" y="159" width="48" height="48"/>
+                                <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="JbU-zk-b4K">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="wasClicked:" target="XfG-lQ-9wD" id="kOT-hV-Aes"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
