@@ -683,7 +683,7 @@
                             <matrix verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autorecalculatesCellSize="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVy-hg-VF3">
                                 <rect key="frame" x="159" y="172" width="225" height="18"/>
                                 <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                <size key="cellSize" width="225" height="18"/>
+                                <size key="cellSize" width="135" height="18"/>
                                 <size key="intercellSpacing" width="4" height="2"/>
                                 <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" inset="2" id="nwK-Eq-FLY">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -724,11 +724,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Connect4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="419"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="493"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-7T-bMa">
-                                <rect key="frame" x="20" y="20" width="64" height="64"/>
+                                <rect key="frame" x="20" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="bZa-cF-lUC">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -738,7 +738,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZRJ-fh-yNX">
-                                <rect key="frame" x="20" y="83" width="64" height="64"/>
+                                <rect key="frame" x="20" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="uuf-C5-iYF">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -748,7 +748,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="20" translatesAutoresizingMaskIntoConstraints="NO" id="gVC-A9-g6F">
-                                <rect key="frame" x="20" y="146" width="64" height="64"/>
+                                <rect key="frame" x="20" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="d4g-Uz-iAa">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -758,7 +758,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="30" translatesAutoresizingMaskIntoConstraints="NO" id="Za3-3u-5e9">
-                                <rect key="frame" x="20" y="209" width="64" height="64"/>
+                                <rect key="frame" x="20" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="UGK-ja-AwM">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -768,7 +768,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="40" translatesAutoresizingMaskIntoConstraints="NO" id="Uh2-gh-7dB">
-                                <rect key="frame" x="20" y="272" width="64" height="64"/>
+                                <rect key="frame" x="20" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="jjl-X2-cTM">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -778,7 +778,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="50" translatesAutoresizingMaskIntoConstraints="NO" id="zVs-xG-6YN">
-                                <rect key="frame" x="20" y="335" width="64" height="64"/>
+                                <rect key="frame" x="20" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="ntM-AP-B0Z">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -788,7 +788,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="ADH-il-aWO">
-                                <rect key="frame" x="83" y="20" width="64" height="64"/>
+                                <rect key="frame" x="83" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="0Ks-KY-IOi">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -798,7 +798,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="11" translatesAutoresizingMaskIntoConstraints="NO" id="SyY-Md-iSS">
-                                <rect key="frame" x="83" y="83" width="64" height="64"/>
+                                <rect key="frame" x="83" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="kE4-yT-UDE">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -808,7 +808,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="21" translatesAutoresizingMaskIntoConstraints="NO" id="eOC-Oi-37t">
-                                <rect key="frame" x="83" y="146" width="64" height="64"/>
+                                <rect key="frame" x="83" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="tNO-D5-l2U">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -818,7 +818,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="31" translatesAutoresizingMaskIntoConstraints="NO" id="QAG-cv-ZL7">
-                                <rect key="frame" x="83" y="209" width="64" height="64"/>
+                                <rect key="frame" x="83" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="DhF-7a-JZR">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -828,7 +828,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="41" translatesAutoresizingMaskIntoConstraints="NO" id="686-ti-mmd">
-                                <rect key="frame" x="83" y="272" width="64" height="64"/>
+                                <rect key="frame" x="83" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="UCO-hc-itz">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -838,7 +838,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="cTS-EK-vNP">
-                                <rect key="frame" x="146" y="20" width="64" height="64"/>
+                                <rect key="frame" x="146" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="4ac-UN-aCX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -848,7 +848,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="12" translatesAutoresizingMaskIntoConstraints="NO" id="EAK-h8-3w0">
-                                <rect key="frame" x="146" y="83" width="64" height="64"/>
+                                <rect key="frame" x="146" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="3Vg-fA-aqB">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -858,7 +858,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="22" translatesAutoresizingMaskIntoConstraints="NO" id="cOj-de-axU">
-                                <rect key="frame" x="146" y="146" width="64" height="64"/>
+                                <rect key="frame" x="146" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="d8s-L0-7q7">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -868,7 +868,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="32" translatesAutoresizingMaskIntoConstraints="NO" id="csd-qa-1si">
-                                <rect key="frame" x="146" y="209" width="64" height="64"/>
+                                <rect key="frame" x="146" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="omQ-P1-3Yh">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -878,7 +878,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="42" translatesAutoresizingMaskIntoConstraints="NO" id="J5r-Bh-LkI">
-                                <rect key="frame" x="146" y="272" width="64" height="64"/>
+                                <rect key="frame" x="146" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="5Yv-mA-0le">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -888,7 +888,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="52" translatesAutoresizingMaskIntoConstraints="NO" id="eNg-Rf-eQj">
-                                <rect key="frame" x="146" y="335" width="64" height="64"/>
+                                <rect key="frame" x="146" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="xFQ-wE-62j">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -898,7 +898,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="3" translatesAutoresizingMaskIntoConstraints="NO" id="KAF-fR-1m4">
-                                <rect key="frame" x="209" y="20" width="64" height="64"/>
+                                <rect key="frame" x="209" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="zuJ-Qk-q5s">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -908,7 +908,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="13" translatesAutoresizingMaskIntoConstraints="NO" id="7zB-EL-hdL">
-                                <rect key="frame" x="209" y="83" width="64" height="64"/>
+                                <rect key="frame" x="209" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="0EV-AX-XSg">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -918,7 +918,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="23" translatesAutoresizingMaskIntoConstraints="NO" id="MpI-iR-X3q">
-                                <rect key="frame" x="209" y="146" width="64" height="64"/>
+                                <rect key="frame" x="209" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="ihP-q5-l7z">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -928,7 +928,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="33" translatesAutoresizingMaskIntoConstraints="NO" id="KQT-fP-U7D">
-                                <rect key="frame" x="209" y="209" width="64" height="64"/>
+                                <rect key="frame" x="209" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="iQZ-5f-T6t">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -938,7 +938,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="43" translatesAutoresizingMaskIntoConstraints="NO" id="Gm6-oP-ZSQ">
-                                <rect key="frame" x="209" y="272" width="64" height="64"/>
+                                <rect key="frame" x="209" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="bLK-cO-Vyy">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -948,7 +948,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="53" translatesAutoresizingMaskIntoConstraints="NO" id="jF9-Bc-Sf9">
-                                <rect key="frame" x="209" y="335" width="64" height="64"/>
+                                <rect key="frame" x="209" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="09K-Yk-Dxe">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -958,7 +958,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="4" translatesAutoresizingMaskIntoConstraints="NO" id="5bd-wK-Hq4">
-                                <rect key="frame" x="272" y="20" width="64" height="64"/>
+                                <rect key="frame" x="272" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="xOX-xk-ABM">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -968,7 +968,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="14" translatesAutoresizingMaskIntoConstraints="NO" id="rMX-FB-ylx">
-                                <rect key="frame" x="272" y="83" width="64" height="64"/>
+                                <rect key="frame" x="272" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="iJ8-3s-AtX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -978,7 +978,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="24" translatesAutoresizingMaskIntoConstraints="NO" id="Esa-Y3-PWx">
-                                <rect key="frame" x="272" y="146" width="64" height="64"/>
+                                <rect key="frame" x="272" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="1pH-2J-Q8A">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -988,7 +988,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="34" translatesAutoresizingMaskIntoConstraints="NO" id="7If-qp-z6G">
-                                <rect key="frame" x="272" y="209" width="64" height="64"/>
+                                <rect key="frame" x="272" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="lQY-He-dbv">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -998,7 +998,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="44" translatesAutoresizingMaskIntoConstraints="NO" id="Z5q-ol-JPQ">
-                                <rect key="frame" x="272" y="272" width="64" height="64"/>
+                                <rect key="frame" x="272" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="goQ-Ui-QjP">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1008,7 +1008,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="54" translatesAutoresizingMaskIntoConstraints="NO" id="bpZ-YO-DRA">
-                                <rect key="frame" x="272" y="335" width="64" height="64"/>
+                                <rect key="frame" x="272" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="yLA-xc-qyX">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1018,7 +1018,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="5" translatesAutoresizingMaskIntoConstraints="NO" id="xjT-PC-wdS">
-                                <rect key="frame" x="335" y="20" width="64" height="64"/>
+                                <rect key="frame" x="335" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="5Hw-AX-h3M">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1028,7 +1028,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="15" translatesAutoresizingMaskIntoConstraints="NO" id="wVQ-5n-Wtd">
-                                <rect key="frame" x="335" y="83" width="64" height="64"/>
+                                <rect key="frame" x="335" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="6wk-gl-ZPl">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1038,7 +1038,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="25" translatesAutoresizingMaskIntoConstraints="NO" id="vqk-Bt-o4A">
-                                <rect key="frame" x="335" y="146" width="64" height="64"/>
+                                <rect key="frame" x="335" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="OcL-Qi-FdY">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1048,7 +1048,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="35" translatesAutoresizingMaskIntoConstraints="NO" id="7dj-8A-2jZ">
-                                <rect key="frame" x="335" y="209" width="64" height="64"/>
+                                <rect key="frame" x="335" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="xCN-sO-80b">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1058,7 +1058,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="45" translatesAutoresizingMaskIntoConstraints="NO" id="zKO-R9-jv4">
-                                <rect key="frame" x="335" y="272" width="64" height="64"/>
+                                <rect key="frame" x="335" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="lRd-vp-05R">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1068,7 +1068,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="55" translatesAutoresizingMaskIntoConstraints="NO" id="wxQ-Bq-LtT">
-                                <rect key="frame" x="335" y="335" width="64" height="64"/>
+                                <rect key="frame" x="335" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="VWu-zv-ue8">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1078,7 +1078,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="6" translatesAutoresizingMaskIntoConstraints="NO" id="tx4-A0-5WH">
-                                <rect key="frame" x="398" y="20" width="64" height="64"/>
+                                <rect key="frame" x="398" y="94" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="fpj-VM-NeL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1088,7 +1088,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="16" translatesAutoresizingMaskIntoConstraints="NO" id="3iU-AT-Zlq">
-                                <rect key="frame" x="398" y="83" width="64" height="64"/>
+                                <rect key="frame" x="398" y="157" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="53o-e9-ofL">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1098,7 +1098,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="26" translatesAutoresizingMaskIntoConstraints="NO" id="Ujs-Vb-WaI">
-                                <rect key="frame" x="398" y="146" width="64" height="64"/>
+                                <rect key="frame" x="398" y="220" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="ZUb-pY-0C5">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1108,7 +1108,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="36" translatesAutoresizingMaskIntoConstraints="NO" id="ZMc-4J-euS">
-                                <rect key="frame" x="398" y="209" width="64" height="64"/>
+                                <rect key="frame" x="398" y="283" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="CWr-5j-nxy">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1118,7 +1118,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="46" translatesAutoresizingMaskIntoConstraints="NO" id="gJk-SE-S3m">
-                                <rect key="frame" x="398" y="272" width="64" height="64"/>
+                                <rect key="frame" x="398" y="346" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="pFR-RA-HaF">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1128,7 +1128,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="56" translatesAutoresizingMaskIntoConstraints="NO" id="or1-wK-CRS">
-                                <rect key="frame" x="398" y="335" width="64" height="64"/>
+                                <rect key="frame" x="398" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="eig-RH-83a">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1138,7 +1138,7 @@
                                 </connections>
                             </button>
                             <button fixedFrame="YES" tag="51" translatesAutoresizingMaskIntoConstraints="NO" id="dEt-7a-ITi">
-                                <rect key="frame" x="83" y="335" width="64" height="64"/>
+                                <rect key="frame" x="83" y="409" width="64" height="64"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="WhiteCircle" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyUpOrDown" inset="2" id="LxB-Un-TX3">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1147,12 +1147,23 @@
                                     <action selector="wasClicked:" target="XfG-lQ-9wD" id="XeV-YQ-B6d"/>
                                 </connections>
                             </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tpj-7O-ppq">
+                                <rect key="frame" x="126" y="20" width="229" height="61"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" borderStyle="border" title="Connect 4" id="9i7-yd-cvk">
+                                    <font key="font" metaFont="system" size="48"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="Tpj-7O-ppq" id="w44-lS-Fid"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="641" y="459.5"/>
+            <point key="canvasLocation" x="641" y="496.5"/>
         </scene>
     </scenes>
     <resources>

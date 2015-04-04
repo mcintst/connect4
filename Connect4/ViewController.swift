@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var statusLabel: NSTextField!
+    
     let theGame = GameLogic()
     var theGameType: NSInteger = 0
     
@@ -36,11 +38,7 @@ class ViewController: NSViewController {
 
                 if (theGame.checkForWinningMove(targetTag))
                     {
-                    println("Win")
-                    }
-                else
-                    {
-                    println("Not a win yet")
+                    statusLabel.stringValue = "You Win!"
                     }
                 
                 theGame.nextPlayer()
