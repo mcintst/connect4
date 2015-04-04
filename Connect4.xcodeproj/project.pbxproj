@@ -16,6 +16,9 @@
 		C9F26AAD1ACE2EFB000F4E24 /* RedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */; };
 		C9F26AAE1ACE2EFB000F4E24 /* WhiteCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */; };
 		C9F26AAF1ACE2EFB000F4E24 /* YellowCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */; };
+		C9F26AB11ACF590E000F4E24 /* StartWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26AB01ACF590E000F4E24 /* StartWindowViewController.swift */; };
+		C9F26AB31ACF64C6000F4E24 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26AB21ACF64C6000F4E24 /* GlobalConstants.swift */; };
+		C9F26AB51ACF705C000F4E24 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26AB41ACF705C000F4E24 /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle.png; sourceTree = "<group>"; };
 		C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteCircle.png; sourceTree = "<group>"; };
 		C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowCircle.png; sourceTree = "<group>"; };
+		C9F26AB01ACF590E000F4E24 /* StartWindowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWindowViewController.swift; sourceTree = "<group>"; };
+		C9F26AB21ACF64C6000F4E24 /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		C9F26AB41ACF705C000F4E24 /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */,
 				C9F26A911ACE26E0000F4E24 /* Images.xcassets */,
 				C9F26A931ACE26E0000F4E24 /* Main.storyboard */,
+				C9F26AB01ACF590E000F4E24 /* StartWindowViewController.swift */,
+				C9F26AB41ACF705C000F4E24 /* GameLogic.swift */,
+				C9F26AB21ACF64C6000F4E24 /* GlobalConstants.swift */,
 				C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */,
 				C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */,
 				C9F26AAC1ACE2EFB000F4E24 /* YellowCircle.png */,
@@ -223,9 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F26AB51ACF705C000F4E24 /* GameLogic.swift in Sources */,
 				C9F26A901ACE26E0000F4E24 /* Connect4.xcdatamodeld in Sources */,
 				C9F26A8D1ACE26E0000F4E24 /* ViewController.swift in Sources */,
+				C9F26AB31ACF64C6000F4E24 /* GlobalConstants.swift in Sources */,
 				C9F26A8B1ACE26E0000F4E24 /* AppDelegate.swift in Sources */,
+				C9F26AB11ACF590E000F4E24 /* StartWindowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +428,7 @@
 				C9F26AA61ACE26E0000F4E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F26AA71ACE26E0000F4E24 /* Build configuration list for PBXNativeTarget "Connect4Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				C9F26AA91ACE26E0000F4E24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

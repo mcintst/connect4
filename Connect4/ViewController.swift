@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    let theGame = GameLogic()
+//    let theGameType: NSinteger = 0
     
     @IBAction func wasClicked(sender: NSButton) {
     println(sender.tag)
@@ -29,6 +31,8 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         // Do any additional setup after loading the view.
     }
 
