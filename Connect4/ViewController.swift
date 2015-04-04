@@ -33,6 +33,16 @@ class ViewController: NSViewController {
                 case "Red" : targetButton.image = NSImage(named: "RedCircle")
                 default : println("error")
                 }
+
+                if (theGame.checkForWinningMove(targetTag))
+                    {
+                    println("Win")
+                    }
+                else
+                    {
+                    println("Not a win yet")
+                    }
+                
                 theGame.nextPlayer()
             }
     }
