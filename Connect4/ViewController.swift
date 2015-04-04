@@ -11,19 +11,19 @@ import Cocoa
 class ViewController: NSViewController {
 
     let theGame = GameLogic()
-//    let theGameType: NSinteger = 0
+    var theGameType: NSInteger = 0
     
     @IBAction func wasClicked(sender: NSButton) {
     println(sender.tag)
-    var theImage = sender.image!.name()!
-    println(theImage)
-    
-        switch theImage {
-        case "WhiteCircle" : sender.image = NSImage(named: "RedCircle")
-        case "RedCircle" : sender.image = NSImage(named: "YellowCircle")
-        case "YellowCircle" : sender.image = NSImage(named: "WhiteCircle")
+//    var theImage = sender.image!.name()!
+//    println(theImage)
+
+        switch theGame.currentPlayer {
+        case "Yellow" : sender.image = NSImage(named: "YellowCircle")
+        case "Red" : sender.image = NSImage(named: "RedCircle")
         default : println("error")
         }
+        theGame.nextPlayer()
     }
     
     
@@ -31,9 +31,10 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+// set up new game
         
-        
-        // Do any additional setup after loading the view.
+    theGame.gameType = theGameType
+    theGame.printCurrentBoard()
     }
 
     override var representedObject: AnyObject? {

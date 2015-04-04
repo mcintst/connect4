@@ -30,8 +30,8 @@ class StartWindowViewController: NSViewController {
             if (sender as! NSInteger == GlobalConstants.gameType.manual)
                 {
                 println("Manual Game")
+                (segue.destinationController as! ViewController).theGameType = GlobalConstants.gameType.manual
             }
-            // pass data to next view
         }
     }
     
