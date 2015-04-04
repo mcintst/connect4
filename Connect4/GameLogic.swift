@@ -19,14 +19,40 @@ var boardMap = Array(count:6, repeatedValue:Array(count:7, repeatedValue:0))
     var win = false;
     var theRow = NSInteger()
     var theColumn = NSInteger()
-    
+
+        
+// get array indices of last move
+        
     (theRow,theColumn) = convertTagToRowColumn(theTag)
     
-    println("Row: \(theRow)\tColumn: \(theColumn)")
+//    println("Row: \(theRow)\tColumn: \(theColumn)")
     
-// get array location of last move
 // 1. check for a vertical win
+        
+    for index in 0...2
+        {
+        if( boardMap[index][theColumn]==boardMap[index+1][theColumn]
+            && boardMap[index][theColumn]==boardMap[index+2][theColumn]
+            && boardMap[index][theColumn]==boardMap[index+3][theColumn]
+            && !(boardMap[index][theColumn]==0) )
+                {
+                win = true
+                }
+        }
+        
 // 2. check for a horizontal win
+
+    for index in 0...3
+        {
+        if( boardMap[theRow][index]==boardMap[theRow][index+1]
+            && boardMap[theRow][index]==boardMap[theRow][index+2]
+            && boardMap[theRow][index]==boardMap[theRow][index+3]
+            && !(boardMap[theRow][index]==0) )
+            {
+            win = true
+            }
+        }
+        
 // 3. check for a diagonal win, left to right descending
 // 4. check for a diagonal win, left to right ascending
         
