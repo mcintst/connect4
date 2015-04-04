@@ -54,8 +54,140 @@ var boardMap = Array(count:6, repeatedValue:Array(count:7, repeatedValue:0))
         }
         
 // 3. check for a diagonal win, left to right descending
-// 4. check for a diagonal win, left to right ascending
+    var colourToMatch = 0
         
+    if (currentPlayer=="Yellow")
+        {
+        colourToMatch=GlobalConstants.counter.yellow
+        }
+    else
+        {
+        colourToMatch=GlobalConstants.counter.red
+        }
+
+// starting with the location just played, go up and left to find highest coordinate
+// then go down and right to find lowest coordinate
+// that will give us the bounds for checking
+        
+        var topRow = theRow
+        var topColumn = theColumn
+        var bottomRow = theRow
+        var bottomColumn = theColumn
+        
+        var lastRowColumnReached = false
+        
+        while(lastRowColumnReached==false)
+        {
+        if (topRow==5 || bottomColumn==0)
+            {
+            lastRowColumnReached=true
+            }
+        else
+            {
+            topRow++
+            bottomColumn--
+            }
+        }
+
+        lastRowColumnReached = false
+        
+        while(lastRowColumnReached==false)
+        {
+            if (bottomRow==0 || topColumn==6)
+            {
+                lastRowColumnReached=true
+            }
+            else
+            {
+                bottomRow--
+                topColumn++
+            }
+        }
+
+        println("Bounds: Row \(topRow) - \(bottomRow) Column \(bottomColumn) - \(topColumn)")
+        
+var consecutiveSameColour = 0
+var currentRow = topRow
+var currentColumn = bottomColumn
+        
+for index in 0...(topRow-bottomRow)
+    {
+    if (boardMap[currentRow][currentColumn]==colourToMatch)
+        {
+        consecutiveSameColour++
+        if (consecutiveSameColour==4)
+            {
+            return(true)
+            }
+        }
+    else
+        {
+        consecutiveSameColour=0
+        }
+    currentRow--
+    currentColumn++
+    }
+        
+// 4. check for a diagonal win, left to right ascending
+        topRow = theRow
+        topColumn = theColumn
+        bottomRow = theRow
+        bottomColumn = theColumn
+        
+        lastRowColumnReached = false
+        
+        while(lastRowColumnReached==false)
+        {
+            if (topRow==5 || topColumn==6)
+            {
+                lastRowColumnReached=true
+            }
+            else
+            {
+                topRow++
+                topColumn++
+            }
+        }
+        
+        lastRowColumnReached = false
+        
+        while(lastRowColumnReached==false)
+        {
+            if (bottomRow==0 || bottomColumn==0)
+            {
+                lastRowColumnReached=true
+            }
+            else
+            {
+                bottomRow--
+                bottomColumn--
+            }
+        }
+        
+        println("Bounds: Row \(topRow) - \(bottomRow) Column \(bottomColumn) - \(topColumn)")
+        
+        consecutiveSameColour = 0
+        currentRow = bottomRow
+        currentColumn = bottomColumn
+        
+        for index in 0...(topRow-bottomRow)
+        {
+            if (boardMap[currentRow][currentColumn]==colourToMatch)
+            {
+                consecutiveSameColour++
+                if (consecutiveSameColour==4)
+                {
+                    return(true)
+                }
+            }
+            else
+            {
+                consecutiveSameColour=0
+            }
+            currentRow++
+            currentColumn++
+        }
+       
     return win
     }
 
