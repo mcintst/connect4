@@ -15,18 +15,27 @@ class ViewController: NSViewController {
     
     @IBAction func wasClicked(sender: NSButton) {
     println(sender.tag)
-//    var theImage = sender.image!.name()!
-//    println(theImage)
 
-        switch theGame.currentPlayer {
-        case "Yellow" : sender.image = NSImage(named: "YellowCircle")
-        case "Red" : sender.image = NSImage(named: "RedCircle")
-        default : println("error")
-        }
-        theGame.nextPlayer()
+// need to identify which column was clicked,
+// and identify which button by tag needs to be set
+// 
+        
+        var targetTag = theGame.getNextSpaceInColumn(sender.tag)
+        if (targetTag != -1)
+            {
+// need to get view with targetTag
+            
+                
+            var targetButton = self.view.viewWithTag(targetTag)! as! NSButton
+    
+                switch theGame.currentPlayer {
+                case "Yellow" : targetButton.image = NSImage(named: "YellowCircle")
+                case "Red" : targetButton.image = NSImage(named: "RedCircle")
+                default : println("error")
+                }
+                theGame.nextPlayer()
+            }
     }
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
