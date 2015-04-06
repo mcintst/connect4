@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9637ECA1AD0AF8200A7949A /* MoveHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9637EC91AD0AF8200A7949A /* MoveHistory.swift */; };
 		C9F26A8B1ACE26E0000F4E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8A1ACE26E0000F4E24 /* AppDelegate.swift */; };
 		C9F26A8D1ACE26E0000F4E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8C1ACE26E0000F4E24 /* ViewController.swift */; };
 		C9F26A901ACE26E0000F4E24 /* Connect4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9F26A8E1ACE26E0000F4E24 /* Connect4.xcdatamodeld */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9637EC91AD0AF8200A7949A /* MoveHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveHistory.swift; sourceTree = "<group>"; };
 		C9F26A851ACE26E0000F4E24 /* Connect4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connect4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F26A891ACE26E0000F4E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9F26A8A1ACE26E0000F4E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				C9F26A931ACE26E0000F4E24 /* Main.storyboard */,
 				C9F26AB01ACF590E000F4E24 /* StartWindowViewController.swift */,
 				C9F26AB41ACF705C000F4E24 /* GameLogic.swift */,
+				C9637EC91AD0AF8200A7949A /* MoveHistory.swift */,
 				C9F26AB21ACF64C6000F4E24 /* GlobalConstants.swift */,
 				C9F26AAA1ACE2EFB000F4E24 /* RedCircle.png */,
 				C9F26AAB1ACE2EFB000F4E24 /* WhiteCircle.png */,
@@ -235,6 +238,7 @@
 				C9F26AB51ACF705C000F4E24 /* GameLogic.swift in Sources */,
 				C9F26A901ACE26E0000F4E24 /* Connect4.xcdatamodeld in Sources */,
 				C9F26A8D1ACE26E0000F4E24 /* ViewController.swift in Sources */,
+				C9637ECA1AD0AF8200A7949A /* MoveHistory.swift in Sources */,
 				C9F26AB31ACF64C6000F4E24 /* GlobalConstants.swift in Sources */,
 				C9F26A8B1ACE26E0000F4E24 /* AppDelegate.swift in Sources */,
 				C9F26AB11ACF590E000F4E24 /* StartWindowViewController.swift in Sources */,

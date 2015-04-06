@@ -14,9 +14,9 @@ class ViewController: NSViewController {
     
     let theGame = GameLogic()
     var theGameType: NSInteger = 0
+    var myDelegate = NSApplication.sharedApplication().delegate as NSApplicationDelegate!
     
     @IBAction func wasClicked(sender: NSButton) {
-    println(sender.tag)
 
 // need to identify which column was clicked,
 // and identify which button by tag needs to be set

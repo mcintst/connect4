@@ -9,22 +9,25 @@
 import Foundation
 
 class GameLogic {
-  
+
+var CurrentGameMoveArray = [NSInteger]()
 var gameType = NSInteger()
 var currentPlayer = "Yellow"
 var boardMap = Array(count:6, repeatedValue:Array(count:7, repeatedValue:0))
     
-    func checkForWinningMove(theTag: NSInteger) ->Bool
+func checkForWinningMove(theTag: NSInteger) ->Bool
     {
     var win = false;
     var theRow = NSInteger()
     var theColumn = NSInteger()
 
+    CurrentGameMoveArray.append(theTag)
         
 // get array indices of last move
         
     (theRow,theColumn) = convertTagToRowColumn(theTag)
-    
+
+        
 //    println("Row: \(theRow)\tColumn: \(theColumn)")
     
 // 1. check for a vertical win
