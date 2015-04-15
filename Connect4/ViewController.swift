@@ -12,8 +12,10 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var statusLabel: NSTextField!
     
+    
+// initialise a new game
     let theGame = GameLogic()
-    var theGameType: NSInteger = 0
+    var theGameType: NSInteger?
     var myDelegate = NSApplication.sharedApplication().delegate as NSApplicationDelegate!
     
     @IBAction func wasClicked(sender: NSButton) {
@@ -49,9 +51,23 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
 // set up new game
+// is it manual or computer playing Red or Yellow
+    theGame.gameType = theGameType!
+
+// main game loop here
+// first move is always Yellow
+// exit loop on a win
+while(theGame.gameState == GlobalConstants.gameState.inProgress)
+    {
+// makeYellowMove
+// checkgametype if manual just wait
+// checkforawin
+// makeRedMove
+// checkforawin
+    }
         
-    theGame.gameType = theGameType
-    theGame.printCurrentBoard()
+        
+//  println("TheGameType: \(theGameType)")
     }
 
     override var representedObject: AnyObject? {

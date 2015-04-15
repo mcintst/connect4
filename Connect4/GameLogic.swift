@@ -12,6 +12,7 @@ class GameLogic {
 
 var CurrentGameMoveArray = [NSInteger]()
 var gameType = NSInteger()
+var gameState = GlobalConstants.gameState.inProgress
 var currentPlayer = "Yellow"
 var boardMap = Array(count:6, repeatedValue:Array(count:7, repeatedValue:0))
     

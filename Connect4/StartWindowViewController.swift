@@ -27,12 +27,8 @@ class StartWindowViewController: NSViewController {
     override func prepareForSegue(segue: NSStoryboardSegue, sender: AnyObject!) {
         if (segue.identifier == "ShowMainWindow") {
             println("Seque Triggered")
-            if (sender as! NSInteger == GlobalConstants.gameType.manual)
-                {
-                println("Manual Game")
-                (segue.destinationController as! ViewController).theGameType = GlobalConstants.gameType.manual
-            }
+            
+            (segue.destinationController as! ViewController).theGameType = gameType.selectedRow
         }
     }
-    
 }
